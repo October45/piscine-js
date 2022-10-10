@@ -1,0 +1,4248 @@
+{
+    "id": 100393,
+    "name": "Piscine JS",
+    "type": "piscine",
+    "attrs": {
+        "capacity": 400,
+        "baseSkills": {
+            "js": 35
+        },
+        "eventDuration": 36960,
+        "eventStartDelay": 240,
+        "registrationDuration": 43200,
+        "baseXp": 70000,
+        "startAfter": 201660,
+        "requirements": {
+            "skills": {
+                "prog": 50
+            }
+        },
+        "delay": 0,
+        "duration": 0,
+        "level": 0,
+        "parentType": "module",
+        "xp": 0,
+        "campus": "gritlab",
+        "xpIndex": 0,
+        "adminSelection": true,
+        "expectedXp": 139775,
+        "rewards": {
+            "skills": {
+                "js": 35
+            },
+            "xp": 70000
+        },
+        "validations": [
+            {
+                "type": "admin_selection"
+            }
+        ]
+    },
+    "children": {
+        "data": {
+            "id": 100405,
+            "name": "data",
+            "type": "quest",
+            "attrs": {
+                "duration": 2,
+                "scopeExtraDuration": 1,
+                "baseXp": 0,
+                "delay": 0,
+                "level": 5,
+                "parentType": "piscine",
+                "campus": "gritlab",
+                "xpIndex": 0,
+                "expectedXp": 12575,
+                "difficulty": 14.5,
+                "startDay": 1,
+                "week": 1
+            },
+            "children": {
+                "how-2-js": {
+                    "id": 100406,
+                    "name": "how-2-js",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "js",
+                        "expectedFiles": [
+                            "how-2-js.js",
+                            "index.html"
+                        ],
+                        "difficulty": 0.5,
+                        "baseXp": 175,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 0,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 0,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "exerciseType": "required",
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/how-2-js/README.md",
+                        "testImage": "docker.01-edu.org/test-js",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-js",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "how-2-js",
+                    "path": "/gritlab/school-curriculum/piscine-js/data/how-2-js",
+                    "index": 1
+                },
+                "primitives": {
+                    "id": 100407,
+                    "name": "primitives",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "js",
+                        "expectedFiles": [
+                            "primitives.js"
+                        ],
+                        "difficulty": 1,
+                        "baseXp": 500,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 1,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 0.5,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "exerciseType": "required",
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/primitives/README.md",
+                        "testImage": "docker.01-edu.org/test-js",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-js",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "primitives",
+                    "path": "/gritlab/school-curriculum/piscine-js/data/primitives",
+                    "index": 2
+                },
+                "declarations": {
+                    "id": 100420,
+                    "name": "declarations",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "js",
+                        "expectedFiles": [
+                            "declarations.js"
+                        ],
+                        "difficulty": 1,
+                        "baseXp": 650,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 2,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 1.5,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "exerciseType": "required",
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/declarations/README.md",
+                        "testImage": "docker.01-edu.org/test-js",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-js",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "declarations",
+                    "path": "/gritlab/school-curriculum/piscine-js/data/declarations",
+                    "index": 3
+                },
+                "mutability": {
+                    "id": 100408,
+                    "name": "mutability",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "js",
+                        "expectedFiles": [
+                            "mutability.js"
+                        ],
+                        "difficulty": 1,
+                        "baseXp": 650,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 2,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 2.5,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "exerciseType": "required",
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/mutability/README.md",
+                        "testImage": "docker.01-edu.org/test-js",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-js",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "mutability",
+                    "path": "/gritlab/school-curriculum/piscine-js/data/mutability",
+                    "index": 4
+                },
+                "more-or-less": {
+                    "id": 100409,
+                    "name": "more-or-less",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "js",
+                        "expectedFiles": [
+                            "more-or-less.js"
+                        ],
+                        "difficulty": 1,
+                        "baseXp": 800,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 3,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 3.5,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "exerciseType": "required",
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/more-or-less/README.md",
+                        "testImage": "docker.01-edu.org/test-js",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-js",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "more-or-less",
+                    "path": "/gritlab/school-curriculum/piscine-js/data/more-or-less",
+                    "index": 5
+                },
+                "returns": {
+                    "id": 100421,
+                    "name": "returns",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "js",
+                        "expectedFiles": [
+                            "returns.js"
+                        ],
+                        "difficulty": 1,
+                        "baseXp": 800,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 3,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 4.5,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "exerciseType": "required",
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/returns/README.md",
+                        "testImage": "docker.01-edu.org/test-js",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-js",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "returns",
+                    "path": "/gritlab/school-curriculum/piscine-js/data/returns",
+                    "index": 6
+                },
+                "last-first-kiss": {
+                    "id": 100410,
+                    "name": "last-first-kiss",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "js",
+                        "expectedFiles": [
+                            "last-first-kiss.js"
+                        ],
+                        "difficulty": 1,
+                        "baseXp": 800,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 3,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 5.5,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "exerciseType": "required",
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/last-first-kiss/README.md",
+                        "testImage": "docker.01-edu.org/test-js",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-js",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "last-first-kiss",
+                    "path": "/gritlab/school-curriculum/piscine-js/data/last-first-kiss",
+                    "index": 7
+                },
+                "concat-str": {
+                    "id": 100411,
+                    "name": "concat-str",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "js",
+                        "expectedFiles": [
+                            "concat-str.js"
+                        ],
+                        "difficulty": 1,
+                        "baseXp": 950,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 4,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 6.5,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "exerciseType": "required",
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/concat-str/README.md",
+                        "testImage": "docker.01-edu.org/test-js",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-js",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "concat-str",
+                    "path": "/gritlab/school-curriculum/piscine-js/data/concat-str",
+                    "index": 8
+                },
+                "change": {
+                    "id": 100412,
+                    "name": "change",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "js",
+                        "expectedFiles": [
+                            "change.js"
+                        ],
+                        "difficulty": 1,
+                        "baseXp": 950,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 4,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 7.5,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "exerciseType": "required",
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/change/README.md",
+                        "testImage": "docker.01-edu.org/test-js",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-js",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "change",
+                    "path": "/gritlab/school-curriculum/piscine-js/data/change",
+                    "index": 9
+                },
+                "dog-years": {
+                    "id": 100422,
+                    "name": "dog-years",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "js",
+                        "expectedFiles": [
+                            "dog-years.js"
+                        ],
+                        "difficulty": 1,
+                        "baseXp": 950,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 4,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 8.5,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "exerciseType": "required",
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/dog-years/README.md",
+                        "testImage": "docker.01-edu.org/test-js",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-js",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "dog-years",
+                    "path": "/gritlab/school-curriculum/piscine-js/data/dog-years",
+                    "index": 10
+                },
+                "circular": {
+                    "id": 100413,
+                    "name": "circular",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "js",
+                        "expectedFiles": [
+                            "circular.js"
+                        ],
+                        "difficulty": 1,
+                        "baseXp": 950,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 4,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 9.5,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "exerciseType": "required",
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/circular/README.md",
+                        "testImage": "docker.01-edu.org/test-js",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-js",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "circular",
+                    "path": "/gritlab/school-curriculum/piscine-js/data/circular",
+                    "index": 11
+                },
+                "biggie-smalls": {
+                    "id": 100414,
+                    "name": "biggie-smalls",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "js",
+                        "expectedFiles": [
+                            "biggie-smalls.js"
+                        ],
+                        "difficulty": 1,
+                        "baseXp": 1100,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 5,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 10.5,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "exerciseType": "required",
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/biggie-smalls/README.md",
+                        "testImage": "docker.01-edu.org/test-js",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-js",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "biggie-smalls",
+                    "path": "/gritlab/school-curriculum/piscine-js/data/biggie-smalls",
+                    "index": 12
+                },
+                "method-man": {
+                    "id": 100415,
+                    "name": "method-man",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "js",
+                        "expectedFiles": [
+                            "method-man.js"
+                        ],
+                        "difficulty": 1,
+                        "baseXp": 1100,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 5,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 11.5,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "exerciseType": "required",
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/method-man/README.md",
+                        "testImage": "docker.01-edu.org/test-js",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-js",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "method-man",
+                    "path": "/gritlab/school-curriculum/piscine-js/data/method-man",
+                    "index": 13
+                },
+                "abs": {
+                    "id": 100416,
+                    "name": "abs",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "js",
+                        "expectedFiles": [
+                            "abs.js"
+                        ],
+                        "difficulty": 1,
+                        "baseXp": 1100,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 5,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 12.5,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "exerciseType": "required",
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/abs/README.md",
+                        "testImage": "docker.01-edu.org/test-js",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-js",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "abs",
+                    "path": "/gritlab/school-curriculum/piscine-js/data/abs",
+                    "index": 14
+                },
+                "min-max": {
+                    "id": 100417,
+                    "name": "min-max",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "js",
+                        "expectedFiles": [
+                            "min-max.js"
+                        ],
+                        "difficulty": 1,
+                        "baseXp": 1100,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 5,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 13.5,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "exerciseType": "required",
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/min-max/README.md",
+                        "testImage": "docker.01-edu.org/test-js",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-js",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "min-max",
+                    "path": "/gritlab/school-curriculum/piscine-js/data/min-max",
+                    "index": 15
+                },
+                "is": {
+                    "id": 100419,
+                    "name": "is",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "js",
+                        "expectedFiles": [
+                            "is.js"
+                        ],
+                        "difficulty": 1,
+                        "exerciseType": "optional",
+                        "baseXp": 1250,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 6,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 14.5,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/is/README.md",
+                        "testImage": "docker.01-edu.org/test-js",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-js",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "is",
+                    "path": "/gritlab/school-curriculum/piscine-js/data/is",
+                    "index": 17
+                },
+                "physics": {
+                    "id": 100423,
+                    "name": "physics",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "js",
+                        "expectedFiles": [
+                            "physics.js"
+                        ],
+                        "difficulty": 1,
+                        "exerciseType": "optional",
+                        "baseXp": 1250,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 6,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 15.5,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/physics/README.md",
+                        "testImage": "docker.01-edu.org/test-js",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-js",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "physics",
+                    "path": "/gritlab/school-curriculum/piscine-js/data/physics",
+                    "index": 18
+                },
+                "collections": {
+                    "id": 100424,
+                    "name": "collections",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "js",
+                        "expectedFiles": [
+                            "collections.js"
+                        ],
+                        "difficulty": 1,
+                        "exerciseType": "optional",
+                        "baseXp": 1250,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 6,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 16.5,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/collections/README.md",
+                        "testImage": "docker.01-edu.org/test-js",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-js",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "collections",
+                    "path": "/gritlab/school-curriculum/piscine-js/data/collections",
+                    "index": 19
+                },
+                "block-chain": {
+                    "id": 100425,
+                    "name": "block-chain",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "js",
+                        "expectedFiles": [
+                            "block-chain.js"
+                        ],
+                        "difficulty": 1,
+                        "exerciseType": "optional",
+                        "baseXp": 1250,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 6,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 17.5,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/block-chain/README.md",
+                        "testImage": "docker.01-edu.org/test-js",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-js",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "block-chain",
+                    "path": "/gritlab/school-curriculum/piscine-js/data/block-chain",
+                    "index": 20
+                }
+            },
+            "key": "data",
+            "path": "/gritlab/school-curriculum/piscine-js/data",
+            "index": 1
+        },
+        "loop": {
+            "id": 100426,
+            "name": "loop",
+            "type": "quest",
+            "attrs": {
+                "duration": 2,
+                "scopeExtraDuration": 1,
+                "baseXp": 0,
+                "delay": 172800000,
+                "level": 8,
+                "parentType": "piscine",
+                "campus": "gritlab",
+                "xpIndex": 14.5,
+                "expectedXp": 19300,
+                "difficulty": 14,
+                "startDay": 3,
+                "week": 1
+            },
+            "children": {
+                "repeat": {
+                    "id": 100433,
+                    "name": "repeat",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "js",
+                        "expectedFiles": [
+                            "repeat.js"
+                        ],
+                        "difficulty": 1,
+                        "baseXp": 1250,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 6,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 14.5,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "exerciseType": "required",
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/repeat/README.md",
+                        "testImage": "docker.01-edu.org/test-js",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-js",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "repeat",
+                    "path": "/gritlab/school-curriculum/piscine-js/loop/repeat",
+                    "index": 1
+                },
+                "elementary": {
+                    "id": 100427,
+                    "name": "elementary",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "js",
+                        "expectedFiles": [
+                            "elementary.js"
+                        ],
+                        "difficulty": 1,
+                        "baseXp": 1250,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 6,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 15.5,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "exerciseType": "required",
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/elementary/README.md",
+                        "testImage": "docker.01-edu.org/test-js",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-js",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "elementary",
+                    "path": "/gritlab/school-curriculum/piscine-js/loop/elementary",
+                    "index": 2
+                },
+                "index-of": {
+                    "id": 100428,
+                    "name": "index-of",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "js",
+                        "expectedFiles": [
+                            "index-of.js"
+                        ],
+                        "difficulty": 1,
+                        "baseXp": 1250,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 6,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 16.5,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "exerciseType": "required",
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/index-of/README.md",
+                        "testImage": "docker.01-edu.org/test-js",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-js",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "index-of",
+                    "path": "/gritlab/school-curriculum/piscine-js/loop/index-of",
+                    "index": 3
+                },
+                "slicer": {
+                    "id": 100429,
+                    "name": "slicer",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "js",
+                        "expectedFiles": [
+                            "slicer.js"
+                        ],
+                        "difficulty": 1,
+                        "baseXp": 1250,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 6,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 17.5,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "exerciseType": "required",
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/slicer/README.md",
+                        "testImage": "docker.01-edu.org/test-js",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-js",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "slicer",
+                    "path": "/gritlab/school-curriculum/piscine-js/loop/slicer",
+                    "index": 4
+                },
+                "keep-cut": {
+                    "id": 100434,
+                    "name": "keep-cut",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "js",
+                        "expectedFiles": [
+                            "keep-cut.js"
+                        ],
+                        "difficulty": 1,
+                        "baseXp": 1250,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 6,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 18.5,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "exerciseType": "required",
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/keep-cut/README.md",
+                        "testImage": "docker.01-edu.org/test-js",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-js",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "keep-cut",
+                    "path": "/gritlab/school-curriculum/piscine-js/loop/keep-cut",
+                    "index": 5
+                },
+                "cut-corners": {
+                    "id": 100435,
+                    "name": "cut-corners",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "js",
+                        "expectedFiles": [
+                            "cut-corners.js"
+                        ],
+                        "difficulty": 1,
+                        "baseXp": 1400,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 7,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 19.5,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "exerciseType": "required",
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/cut-corners/README.md",
+                        "testImage": "docker.01-edu.org/test-js",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-js",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "cut-corners",
+                    "path": "/gritlab/school-curriculum/piscine-js/loop/cut-corners",
+                    "index": 6
+                },
+                "reverser": {
+                    "id": 100436,
+                    "name": "reverser",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "js",
+                        "expectedFiles": [
+                            "reverser.js"
+                        ],
+                        "difficulty": 1,
+                        "baseXp": 1400,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 7,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 20.5,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "exerciseType": "required",
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/reverser/README.md",
+                        "testImage": "docker.01-edu.org/test-js",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-js",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "reverser",
+                    "path": "/gritlab/school-curriculum/piscine-js/loop/reverser",
+                    "index": 7
+                },
+                "unbreakable": {
+                    "id": 100437,
+                    "name": "unbreakable",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "js",
+                        "expectedFiles": [
+                            "unbreakable.js"
+                        ],
+                        "difficulty": 1,
+                        "baseXp": 1400,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 7,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 21.5,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "exerciseType": "required",
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/unbreakable/README.md",
+                        "testImage": "docker.01-edu.org/test-js",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-js",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "unbreakable",
+                    "path": "/gritlab/school-curriculum/piscine-js/loop/unbreakable",
+                    "index": 8
+                },
+                "chunky": {
+                    "id": 100430,
+                    "name": "chunky",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "js",
+                        "expectedFiles": [
+                            "chunky.js"
+                        ],
+                        "difficulty": 1,
+                        "baseXp": 1400,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 7,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 22.5,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "exerciseType": "required",
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/chunky/README.md",
+                        "testImage": "docker.01-edu.org/test-js",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-js",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "chunky",
+                    "path": "/gritlab/school-curriculum/piscine-js/loop/chunky",
+                    "index": 9
+                },
+                "nasa": {
+                    "id": 100431,
+                    "name": "nasa",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "js",
+                        "expectedFiles": [
+                            "nasa.js"
+                        ],
+                        "difficulty": 1,
+                        "baseXp": 1400,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 7,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 23.5,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "exerciseType": "required",
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/nasa/README.md",
+                        "testImage": "docker.01-edu.org/test-js",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-js",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "nasa",
+                    "path": "/gritlab/school-curriculum/piscine-js/loop/nasa",
+                    "index": 10
+                },
+                "molecules-cells": {
+                    "id": 100432,
+                    "name": "molecules-cells",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "js",
+                        "expectedFiles": [
+                            "molecules-cells.js"
+                        ],
+                        "difficulty": 1,
+                        "baseXp": 1400,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 7,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 24.5,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "exerciseType": "required",
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/molecules-cells/README.md",
+                        "testImage": "docker.01-edu.org/test-js",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-js",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "molecules-cells",
+                    "path": "/gritlab/school-curriculum/piscine-js/loop/molecules-cells",
+                    "index": 11
+                },
+                "get": {
+                    "id": 100438,
+                    "name": "get",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "js",
+                        "expectedFiles": [
+                            "get.js"
+                        ],
+                        "difficulty": 1,
+                        "baseXp": 1550,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 8,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 25.5,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "exerciseType": "required",
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/get/README.md",
+                        "testImage": "docker.01-edu.org/test-js",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-js",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "get",
+                    "path": "/gritlab/school-curriculum/piscine-js/loop/get",
+                    "index": 12
+                },
+                "triangle": {
+                    "id": 100439,
+                    "name": "triangle",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "js",
+                        "expectedFiles": [
+                            "triangle.js"
+                        ],
+                        "difficulty": 1,
+                        "baseXp": 1550,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 8,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 26.5,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "exerciseType": "required",
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/triangle/README.md",
+                        "testImage": "docker.01-edu.org/test-js",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-js",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "triangle",
+                    "path": "/gritlab/school-curriculum/piscine-js/loop/triangle",
+                    "index": 13
+                },
+                "pyramid": {
+                    "id": 100440,
+                    "name": "pyramid",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "js",
+                        "expectedFiles": [
+                            "pyramid.js"
+                        ],
+                        "difficulty": 1,
+                        "baseXp": 1550,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 8,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 27.5,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "exerciseType": "required",
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/pyramid/README.md",
+                        "testImage": "docker.01-edu.org/test-js",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-js",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "pyramid",
+                    "path": "/gritlab/school-curriculum/piscine-js/loop/pyramid",
+                    "index": 14
+                },
+                "flat": {
+                    "id": 100441,
+                    "name": "flat",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "js",
+                        "expectedFiles": [
+                            "flat.js"
+                        ],
+                        "difficulty": 1,
+                        "exerciseType": "optional",
+                        "baseXp": 1550,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 8,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 28.5,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/flat/README.md",
+                        "testImage": "docker.01-edu.org/test-js",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-js",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "flat",
+                    "path": "/gritlab/school-curriculum/piscine-js/loop/flat",
+                    "index": 15
+                },
+                "find-expression": {
+                    "id": 100442,
+                    "name": "find-expression",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "js",
+                        "expectedFiles": [
+                            "find-expression.js"
+                        ],
+                        "difficulty": 1,
+                        "exerciseType": "optional",
+                        "baseXp": 1550,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 8,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 29.5,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/find-expression/README.md",
+                        "testImage": "docker.01-edu.org/test-js",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-js",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "find-expression",
+                    "path": "/gritlab/school-curriculum/piscine-js/loop/find-expression",
+                    "index": 16
+                },
+                "sums": {
+                    "id": 100443,
+                    "name": "sums",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "js",
+                        "expectedFiles": [
+                            "sums.js"
+                        ],
+                        "difficulty": 1,
+                        "exerciseType": "optional",
+                        "baseXp": 1550,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 8,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 30.5,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/sums/README.md",
+                        "testImage": "docker.01-edu.org/test-js",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-js",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "sums",
+                    "path": "/gritlab/school-curriculum/piscine-js/loop/sums",
+                    "index": 17
+                }
+            },
+            "key": "loop",
+            "path": "/gritlab/school-curriculum/piscine-js/loop",
+            "index": 2
+        },
+        "find": {
+            "id": 100444,
+            "name": "find",
+            "type": "quest",
+            "attrs": {
+                "duration": 1,
+                "scopeExtraDuration": 1,
+                "baseXp": 0,
+                "delay": 345600000,
+                "level": 9,
+                "parentType": "piscine",
+                "campus": "gritlab",
+                "xpIndex": 28.5,
+                "expectedXp": 8050,
+                "difficulty": 5,
+                "startDay": 5,
+                "week": 1
+            },
+            "children": {
+                "its-a-match": {
+                    "id": 100445,
+                    "name": "its-a-match",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "js",
+                        "expectedFiles": [
+                            "its-a-match.js"
+                        ],
+                        "difficulty": 1,
+                        "baseXp": 1550,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 8,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 28.5,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "exerciseType": "required",
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/its-a-match/README.md",
+                        "testImage": "docker.01-edu.org/test-js",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-js",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "its-a-match",
+                    "path": "/gritlab/school-curriculum/piscine-js/find/its-a-match",
+                    "index": 1
+                },
+                "letter-space-number": {
+                    "id": 100446,
+                    "name": "letter-space-number",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "js",
+                        "expectedFiles": [
+                            "letter-space-number.js"
+                        ],
+                        "difficulty": 1,
+                        "baseXp": 1550,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 8,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 29.5,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "exerciseType": "required",
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/letter-space-number/README.md",
+                        "testImage": "docker.01-edu.org/test-js",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-js",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "letter-space-number",
+                    "path": "/gritlab/school-curriculum/piscine-js/find/letter-space-number",
+                    "index": 2
+                },
+                "vowel-dots": {
+                    "id": 100447,
+                    "name": "vowel-dots",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "js",
+                        "expectedFiles": [
+                            "vowel-dots.js"
+                        ],
+                        "difficulty": 1,
+                        "baseXp": 1550,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 8,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 30.5,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "exerciseType": "required",
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/vowel-dots/README.md",
+                        "testImage": "docker.01-edu.org/test-js",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-js",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "vowel-dots",
+                    "path": "/gritlab/school-curriculum/piscine-js/find/vowel-dots",
+                    "index": 3
+                },
+                "same-amount": {
+                    "id": 100448,
+                    "name": "same-amount",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "js",
+                        "expectedFiles": [
+                            "same-amount.js"
+                        ],
+                        "difficulty": 1,
+                        "baseXp": 1700,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 9,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 31.5,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "exerciseType": "required",
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/same-amount/README.md",
+                        "testImage": "docker.01-edu.org/test-js",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-js",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "same-amount",
+                    "path": "/gritlab/school-curriculum/piscine-js/find/same-amount",
+                    "index": 4
+                },
+                "ion-out": {
+                    "id": 100449,
+                    "name": "ion-out",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "js",
+                        "expectedFiles": [
+                            "ion-out.js"
+                        ],
+                        "difficulty": 1,
+                        "baseXp": 1700,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 9,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 32.5,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "exerciseType": "required",
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/ion-out/README.md",
+                        "testImage": "docker.01-edu.org/test-js",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-js",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "ion-out",
+                    "path": "/gritlab/school-curriculum/piscine-js/find/ion-out",
+                    "index": 5
+                },
+                "greedy-url": {
+                    "id": 100450,
+                    "name": "greedy-url",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "js",
+                        "expectedFiles": [
+                            "greedy-url.js"
+                        ],
+                        "difficulty": 1,
+                        "exerciseType": "optional",
+                        "baseXp": 1700,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 9,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 33.5,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/greedy-url/README.md",
+                        "testImage": "docker.01-edu.org/test-js",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-js",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "greedy-url",
+                    "path": "/gritlab/school-curriculum/piscine-js/find/greedy-url",
+                    "index": 6
+                },
+                "group-price": {
+                    "id": 100451,
+                    "name": "group-price",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "js",
+                        "expectedFiles": [
+                            "group-price.js"
+                        ],
+                        "difficulty": 1,
+                        "exerciseType": "optional",
+                        "baseXp": 1700,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 9,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 34.5,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/group-price/README.md",
+                        "testImage": "docker.01-edu.org/test-js",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-js",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "group-price",
+                    "path": "/gritlab/school-curriculum/piscine-js/find/group-price",
+                    "index": 7
+                },
+                "valid-ip": {
+                    "id": 100452,
+                    "name": "valid-ip",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "js",
+                        "expectedFiles": [
+                            "valid-ip.js"
+                        ],
+                        "difficulty": 1,
+                        "exerciseType": "optional",
+                        "baseXp": 1700,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 9,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 35.5,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/valid-ip/README.md",
+                        "testImage": "docker.01-edu.org/test-js",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-js",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "valid-ip",
+                    "path": "/gritlab/school-curriculum/piscine-js/find/valid-ip",
+                    "index": 8
+                }
+            },
+            "key": "find",
+            "path": "/gritlab/school-curriculum/piscine-js/find",
+            "index": 3
+        },
+        "tron": {
+            "id": 100504,
+            "name": "tron",
+            "type": "project",
+            "attrs": {
+                "groupMax": 1,
+                "groupMin": 1,
+                "language": "js",
+                "exerciseType": "asynchronous",
+                "auditsRequired": 2,
+                "week": 1,
+                "duration": 2,
+                "startDay": 6,
+                "baseXp": 1700,
+                "delay": 432000000,
+                "level": 9,
+                "parentType": "piscine",
+                "campus": "gritlab",
+                "xpIndex": 33.5,
+                "availableLanguages": [
+                    "en"
+                ],
+                "cooldown": 180000,
+                "difficulty": 1,
+                "rootName": "piscine-js",
+                "subject": "/markdown/root/public/subjects/tron/README.md",
+                "testImage": "docker.01-edu.org/test-js",
+                "userLanguage": "en",
+                "validations": [
+                    {
+                        "type": "user_audit",
+                        "form": "https://public.01-edu.org/subjects/tron/audit",
+                        "ratio": 2,
+                        "required": 2,
+                        "matchWhere": {
+                            "campus": {
+                                "_eq": "gritlab"
+                            },
+                            "_not": {
+                                "roles": {
+                                    "slug": {
+                                        "_in": [
+                                            "admin",
+                                            "campus_admin_gritlab"
+                                        ]
+                                    }
+                                }
+                            }
+                        },
+                        "delay": 20160
+                    }
+                ],
+                "audit": "https://public.01-edu.org/subjects/tron/audit",
+                "auditDelay": 20160,
+                "auditsRatio": 2,
+                "displayedName": "tron",
+                "matchWhere": {
+                    "campus": {
+                        "_eq": "gritlab"
+                    },
+                    "_not": {
+                        "roles": {
+                            "slug": {
+                                "_in": [
+                                    "admin",
+                                    "campus_admin_gritlab"
+                                ]
+                            }
+                        }
+                    }
+                },
+                "requiredAuditRatio": 0.5
+            },
+            "key": "tron",
+            "path": "/gritlab/school-curriculum/piscine-js/tron",
+            "index": 4
+        },
+        "time": {
+            "id": 100453,
+            "name": "time",
+            "type": "quest",
+            "attrs": {
+                "duration": 1,
+                "scopeExtraDuration": 1,
+                "baseXp": 0,
+                "delay": 604800000,
+                "level": 10,
+                "parentType": "piscine",
+                "campus": "gritlab",
+                "xpIndex": 34.5,
+                "expectedXp": 12350,
+                "difficulty": 7,
+                "startDay": 8,
+                "week": 2
+            },
+            "children": {
+                "dr-strange": {
+                    "id": 100455,
+                    "name": "dr-strange",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "js",
+                        "expectedFiles": [
+                            "dr-strange.js"
+                        ],
+                        "difficulty": 1,
+                        "baseXp": 1700,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 9,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 34.5,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "exerciseType": "required",
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/dr-strange/README.md",
+                        "testImage": "docker.01-edu.org/test-js",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-js",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "dr-strange",
+                    "path": "/gritlab/school-curriculum/piscine-js/time/dr-strange",
+                    "index": 1
+                },
+                "date-is": {
+                    "id": 100454,
+                    "name": "date-is",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "js",
+                        "expectedFiles": [
+                            "date-is.js"
+                        ],
+                        "difficulty": 1,
+                        "baseXp": 1700,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 9,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 35.5,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "exerciseType": "required",
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/date-is/README.md",
+                        "testImage": "docker.01-edu.org/test-js",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-js",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "date-is",
+                    "path": "/gritlab/school-curriculum/piscine-js/time/date-is",
+                    "index": 2
+                },
+                "get-some-time": {
+                    "id": 100456,
+                    "name": "get-some-time",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "js",
+                        "expectedFiles": [
+                            "get-some-time.js"
+                        ],
+                        "difficulty": 1,
+                        "baseXp": 1700,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 9,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 36.5,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "exerciseType": "required",
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/get-some-time/README.md",
+                        "testImage": "docker.01-edu.org/test-js",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-js",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "get-some-time",
+                    "path": "/gritlab/school-curriculum/piscine-js/time/get-some-time",
+                    "index": 3
+                },
+                "rebecca-black": {
+                    "id": 100457,
+                    "name": "rebecca-black",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "js",
+                        "expectedFiles": [
+                            "rebecca-black.js"
+                        ],
+                        "difficulty": 1,
+                        "baseXp": 1700,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 9,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 37.5,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "exerciseType": "required",
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/rebecca-black/README.md",
+                        "testImage": "docker.01-edu.org/test-js",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-js",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "rebecca-black",
+                    "path": "/gritlab/school-curriculum/piscine-js/time/rebecca-black",
+                    "index": 4
+                },
+                "match-cron": {
+                    "id": 100458,
+                    "name": "match-cron",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "js",
+                        "expectedFiles": [
+                            "match-cron.js"
+                        ],
+                        "difficulty": 1,
+                        "baseXp": 1850,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 10,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 38.5,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "exerciseType": "required",
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/match-cron/README.md",
+                        "testImage": "docker.01-edu.org/test-js",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-js",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "match-cron",
+                    "path": "/gritlab/school-curriculum/piscine-js/time/match-cron",
+                    "index": 5
+                },
+                "count-leap-years": {
+                    "id": 100459,
+                    "name": "count-leap-years",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "js",
+                        "expectedFiles": [
+                            "count-leap-years.js"
+                        ],
+                        "difficulty": 1,
+                        "baseXp": 1850,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 10,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 39.5,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "exerciseType": "required",
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/count-leap-years/README.md",
+                        "testImage": "docker.01-edu.org/test-js",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-js",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "count-leap-years",
+                    "path": "/gritlab/school-curriculum/piscine-js/time/count-leap-years",
+                    "index": 6
+                },
+                "day-of-the-year": {
+                    "id": 100460,
+                    "name": "day-of-the-year",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "js",
+                        "expectedFiles": [
+                            "day-of-the-year.js"
+                        ],
+                        "difficulty": 1,
+                        "baseXp": 1850,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 10,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 40.5,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "exerciseType": "required",
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/day-of-the-year/README.md",
+                        "testImage": "docker.01-edu.org/test-js",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-js",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "day-of-the-year",
+                    "path": "/gritlab/school-curriculum/piscine-js/time/day-of-the-year",
+                    "index": 7
+                },
+                "bloody-sunday": {
+                    "id": 100461,
+                    "name": "bloody-sunday",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "js",
+                        "expectedFiles": [
+                            "bloody-sunday.js"
+                        ],
+                        "difficulty": 1,
+                        "exerciseType": "optional",
+                        "baseXp": 1850,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 10,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 41.5,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/bloody-sunday/README.md",
+                        "testImage": "docker.01-edu.org/test-js",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-js",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "bloody-sunday",
+                    "path": "/gritlab/school-curriculum/piscine-js/time/bloody-sunday",
+                    "index": 8
+                },
+                "unicode-technical-report-35": {
+                    "id": 100462,
+                    "name": "unicode-technical-report-35",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "js",
+                        "expectedFiles": [
+                            "unicode-technical-report-35.js"
+                        ],
+                        "difficulty": 1,
+                        "exerciseType": "optional",
+                        "baseXp": 1850,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 10,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 42.5,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/unicode-technical-report-35/README.md",
+                        "testImage": "docker.01-edu.org/test-js",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-js",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "unicode-technical-report-35",
+                    "path": "/gritlab/school-curriculum/piscine-js/time/unicode-technical-report-35",
+                    "index": 9
+                }
+            },
+            "key": "time",
+            "path": "/gritlab/school-curriculum/piscine-js/time",
+            "index": 5
+        },
+        "call-me-maybe": {
+            "id": 100463,
+            "name": "call-me-maybe",
+            "type": "quest",
+            "attrs": {
+                "duration": 2,
+                "scopeExtraDuration": 1,
+                "baseXp": 0,
+                "delay": 691200000,
+                "level": 11,
+                "parentType": "piscine",
+                "campus": "gritlab",
+                "xpIndex": 41.5,
+                "expectedXp": 21250,
+                "difficulty": 11,
+                "startDay": 9,
+                "week": 2
+            },
+            "children": {
+                "using-map": {
+                    "id": 100464,
+                    "name": "using-map",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "js",
+                        "expectedFiles": [
+                            "using-map.js"
+                        ],
+                        "difficulty": 1,
+                        "baseXp": 1850,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 10,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 41.5,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "exerciseType": "required",
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/using-map/README.md",
+                        "testImage": "docker.01-edu.org/test-js",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-js",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "using-map",
+                    "path": "/gritlab/school-curriculum/piscine-js/call-me-maybe/using-map",
+                    "index": 1
+                },
+                "using-filter": {
+                    "id": 100465,
+                    "name": "using-filter",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "js",
+                        "expectedFiles": [
+                            "using-filter.js"
+                        ],
+                        "difficulty": 1,
+                        "baseXp": 1850,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 10,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 42.5,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "exerciseType": "required",
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/using-filter/README.md",
+                        "testImage": "docker.01-edu.org/test-js",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-js",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "using-filter",
+                    "path": "/gritlab/school-curriculum/piscine-js/call-me-maybe/using-filter",
+                    "index": 2
+                },
+                "using-reduce": {
+                    "id": 100466,
+                    "name": "using-reduce",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "js",
+                        "expectedFiles": [
+                            "using-reduce.js"
+                        ],
+                        "difficulty": 1,
+                        "baseXp": 1850,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 10,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 43.5,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "exerciseType": "required",
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/using-reduce/README.md",
+                        "testImage": "docker.01-edu.org/test-js",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-js",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "using-reduce",
+                    "path": "/gritlab/school-curriculum/piscine-js/call-me-maybe/using-reduce",
+                    "index": 3
+                },
+                "long-words": {
+                    "id": 100467,
+                    "name": "long-words",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "js",
+                        "expectedFiles": [
+                            "long-words.js"
+                        ],
+                        "difficulty": 1,
+                        "baseXp": 1850,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 10,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 44.5,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "exerciseType": "required",
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/long-words/README.md",
+                        "testImage": "docker.01-edu.org/test-js",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-js",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "long-words",
+                    "path": "/gritlab/school-curriculum/piscine-js/call-me-maybe/long-words",
+                    "index": 4
+                },
+                "for-each": {
+                    "id": 100468,
+                    "name": "for-each",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "js",
+                        "expectedFiles": [
+                            "for-each.js"
+                        ],
+                        "difficulty": 1,
+                        "baseXp": 1850,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 10,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 45.5,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "exerciseType": "required",
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/for-each/README.md",
+                        "testImage": "docker.01-edu.org/test-js",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-js",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "for-each",
+                    "path": "/gritlab/school-curriculum/piscine-js/call-me-maybe/for-each",
+                    "index": 5
+                },
+                "mapper": {
+                    "id": 100469,
+                    "name": "mapper",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "js",
+                        "expectedFiles": [
+                            "mapper.js"
+                        ],
+                        "difficulty": 1,
+                        "baseXp": 2000,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 11,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 46.5,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "exerciseType": "required",
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/mapper/README.md",
+                        "testImage": "docker.01-edu.org/test-js",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-js",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "mapper",
+                    "path": "/gritlab/school-curriculum/piscine-js/call-me-maybe/mapper",
+                    "index": 6
+                },
+                "filter": {
+                    "id": 100470,
+                    "name": "filter",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "js",
+                        "expectedFiles": [
+                            "filter.js"
+                        ],
+                        "difficulty": 1,
+                        "baseXp": 2000,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 11,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 47.5,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "exerciseType": "required",
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/filter/README.md",
+                        "testImage": "docker.01-edu.org/test-js",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-js",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "filter",
+                    "path": "/gritlab/school-curriculum/piscine-js/call-me-maybe/filter",
+                    "index": 7
+                },
+                "reduce": {
+                    "id": 100471,
+                    "name": "reduce",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "js",
+                        "expectedFiles": [
+                            "reduce.js"
+                        ],
+                        "difficulty": 1,
+                        "baseXp": 2000,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 11,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 48.5,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "exerciseType": "required",
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/reduce/README.md",
+                        "testImage": "docker.01-edu.org/test-js",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-js",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "reduce",
+                    "path": "/gritlab/school-curriculum/piscine-js/call-me-maybe/reduce",
+                    "index": 8
+                },
+                "quantifiers": {
+                    "id": 100472,
+                    "name": "quantifiers",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "js",
+                        "expectedFiles": [
+                            "quantifiers.js"
+                        ],
+                        "difficulty": 1,
+                        "baseXp": 2000,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 11,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 49.5,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "exerciseType": "required",
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/quantifiers/README.md",
+                        "testImage": "docker.01-edu.org/test-js",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-js",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "quantifiers",
+                    "path": "/gritlab/school-curriculum/piscine-js/call-me-maybe/quantifiers",
+                    "index": 9
+                },
+                "sweet-curry": {
+                    "id": 100473,
+                    "name": "sweet-curry",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "js",
+                        "expectedFiles": [
+                            "sweet-curry.js"
+                        ],
+                        "difficulty": 1,
+                        "baseXp": 2000,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 11,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 50.5,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "exerciseType": "required",
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/sweet-curry/README.md",
+                        "testImage": "docker.01-edu.org/test-js",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-js",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "sweet-curry",
+                    "path": "/gritlab/school-curriculum/piscine-js/call-me-maybe/sweet-curry",
+                    "index": 10
+                },
+                "has-city": {
+                    "id": 100474,
+                    "name": "has-city",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "js",
+                        "expectedFiles": [
+                            "has-city.js"
+                        ],
+                        "difficulty": 1,
+                        "baseXp": 2000,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 11,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 51.5,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "exerciseType": "required",
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/has-city/README.md",
+                        "testImage": "docker.01-edu.org/test-js",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-js",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "has-city",
+                    "path": "/gritlab/school-curriculum/piscine-js/call-me-maybe/has-city",
+                    "index": 11
+                },
+                "flow": {
+                    "id": 100475,
+                    "name": "flow",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "js",
+                        "expectedFiles": [
+                            "flow.js"
+                        ],
+                        "difficulty": 1,
+                        "exerciseType": "optional",
+                        "baseXp": 2000,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 11,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 52.5,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/flow/README.md",
+                        "testImage": "docker.01-edu.org/test-js",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-js",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "flow",
+                    "path": "/gritlab/school-curriculum/piscine-js/call-me-maybe/flow",
+                    "index": 12
+                },
+                "currify": {
+                    "id": 100476,
+                    "name": "currify",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "js",
+                        "expectedFiles": [
+                            "currify.js"
+                        ],
+                        "difficulty": 1,
+                        "exerciseType": "optional",
+                        "baseXp": 2000,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 11,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 53.5,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/currify/README.md",
+                        "testImage": "docker.01-edu.org/test-js",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-js",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "currify",
+                    "path": "/gritlab/school-curriculum/piscine-js/call-me-maybe/currify",
+                    "index": 13
+                }
+            },
+            "key": "call-me-maybe",
+            "path": "/gritlab/school-curriculum/piscine-js/call-me-maybe",
+            "index": 6
+        },
+        "dom": {
+            "id": 100394,
+            "name": "dom",
+            "type": "quest",
+            "attrs": {
+                "duration": 2,
+                "scopeExtraDuration": 1,
+                "baseXp": 0,
+                "delay": 864000000,
+                "level": 12,
+                "parentType": "piscine",
+                "campus": "gritlab",
+                "xpIndex": 52.5,
+                "expectedXp": 21200,
+                "difficulty": 10,
+                "startDay": 11,
+                "week": 2
+            },
+            "children": {
+                "get-them-all": {
+                    "id": 100395,
+                    "name": "get-them-all",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "dom",
+                        "expectedFiles": [
+                            "get-them-all.js"
+                        ],
+                        "difficulty": 1,
+                        "baseXp": 2000,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 11,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 52.5,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "exerciseType": "required",
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/get-them-all/README.md",
+                        "testImage": "docker.01-edu.org/test-dom",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-dom",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "get-them-all",
+                    "path": "/gritlab/school-curriculum/piscine-js/dom/get-them-all",
+                    "index": 1
+                },
+                "build-brick-and-break": {
+                    "id": 100396,
+                    "name": "build-brick-and-break",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "dom",
+                        "expectedFiles": [
+                            "build-brick-and-break.js"
+                        ],
+                        "difficulty": 1,
+                        "baseXp": 2000,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 11,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 53.5,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "exerciseType": "required",
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/build-brick-and-break/README.md",
+                        "testImage": "docker.01-edu.org/test-dom",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-dom",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "build-brick-and-break",
+                    "path": "/gritlab/school-curriculum/piscine-js/dom/build-brick-and-break",
+                    "index": 2
+                },
+                "harder-bigger-bolder-stronger": {
+                    "id": 100397,
+                    "name": "harder-bigger-bolder-stronger",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "dom",
+                        "expectedFiles": [
+                            "harder-bigger-bolder-stronger.js"
+                        ],
+                        "difficulty": 1,
+                        "baseXp": 2150,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 12,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 54.5,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "exerciseType": "required",
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/harder-bigger-bolder-stronger/README.md",
+                        "testImage": "docker.01-edu.org/test-dom",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-dom",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "harder-bigger-bolder-stronger",
+                    "path": "/gritlab/school-curriculum/piscine-js/dom/harder-bigger-bolder-stronger",
+                    "index": 3
+                },
+                "pimp-my-style": {
+                    "id": 100398,
+                    "name": "pimp-my-style",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "dom",
+                        "expectedFiles": [
+                            "pimp-my-style.js"
+                        ],
+                        "difficulty": 1,
+                        "baseXp": 2150,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 12,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 55.5,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "exerciseType": "required",
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/pimp-my-style/README.md",
+                        "testImage": "docker.01-edu.org/test-dom",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-dom",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "pimp-my-style",
+                    "path": "/gritlab/school-curriculum/piscine-js/dom/pimp-my-style",
+                    "index": 4
+                },
+                "fifty-shades-of-cold": {
+                    "id": 100399,
+                    "name": "fifty-shades-of-cold",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "dom",
+                        "expectedFiles": [
+                            "fifty-shades-of-cold.js"
+                        ],
+                        "difficulty": 1,
+                        "baseXp": 2150,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 12,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 56.5,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "exerciseType": "required",
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/fifty-shades-of-cold/README.md",
+                        "testImage": "docker.01-edu.org/test-dom",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-dom",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "fifty-shades-of-cold",
+                    "path": "/gritlab/school-curriculum/piscine-js/dom/fifty-shades-of-cold",
+                    "index": 5
+                },
+                "keycodes-symphony": {
+                    "id": 100400,
+                    "name": "keycodes-symphony",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "dom",
+                        "expectedFiles": [
+                            "keycodes-symphony.js"
+                        ],
+                        "difficulty": 1,
+                        "baseXp": 2150,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 12,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 57.5,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "exerciseType": "required",
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/keycodes-symphony/README.md",
+                        "testImage": "docker.01-edu.org/test-dom",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-dom",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "keycodes-symphony",
+                    "path": "/gritlab/school-curriculum/piscine-js/dom/keycodes-symphony",
+                    "index": 6
+                },
+                "mouse-trap": {
+                    "id": 100401,
+                    "name": "mouse-trap",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "dom",
+                        "expectedFiles": [
+                            "mouse-trap.js"
+                        ],
+                        "difficulty": 1,
+                        "baseXp": 2150,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 12,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 58.5,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "exerciseType": "required",
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/mouse-trap/README.md",
+                        "testImage": "docker.01-edu.org/test-dom",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-dom",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "mouse-trap",
+                    "path": "/gritlab/school-curriculum/piscine-js/dom/mouse-trap",
+                    "index": 7
+                },
+                "pick-and-click": {
+                    "id": 100402,
+                    "name": "pick-and-click",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "dom",
+                        "expectedFiles": [
+                            "pick-and-click.js"
+                        ],
+                        "difficulty": 1,
+                        "baseXp": 2150,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 12,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 59.5,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "exerciseType": "required",
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/pick-and-click/README.md",
+                        "testImage": "docker.01-edu.org/test-dom",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-dom",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "pick-and-click",
+                    "path": "/gritlab/school-curriculum/piscine-js/dom/pick-and-click",
+                    "index": 8
+                },
+                "gossip-grid": {
+                    "id": 100403,
+                    "name": "gossip-grid",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "dom",
+                        "expectedFiles": [
+                            "gossip-grid.js"
+                        ],
+                        "difficulty": 1,
+                        "baseXp": 2150,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 12,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 60.5,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "exerciseType": "required",
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/gossip-grid/README.md",
+                        "testImage": "docker.01-edu.org/test-dom",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-dom",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "gossip-grid",
+                    "path": "/gritlab/school-curriculum/piscine-js/dom/gossip-grid",
+                    "index": 9
+                },
+                "where-do-we-go": {
+                    "id": 100404,
+                    "name": "where-do-we-go",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "dom",
+                        "expectedFiles": [
+                            "where-do-we-go.js"
+                        ],
+                        "difficulty": 1,
+                        "baseXp": 2150,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 12,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 61.5,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "exerciseType": "required",
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/where-do-we-go/README.md",
+                        "testImage": "docker.01-edu.org/test-dom",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-dom",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "where-do-we-go",
+                    "path": "/gritlab/school-curriculum/piscine-js/dom/where-do-we-go",
+                    "index": 10
+                }
+            },
+            "key": "dom",
+            "path": "/gritlab/school-curriculum/piscine-js/dom",
+            "index": 7
+        },
+        "sortable": {
+            "id": 100477,
+            "name": "sortable",
+            "type": "raid",
+            "attrs": {
+                "groupSize": 3,
+                "eventDuration": 3120,
+                "eventStartDelay": 300,
+                "registrationDuration": 2160,
+                "info": "Group 2",
+                "duration": 2,
+                "startAfter": 16920,
+                "baseXp": 2150,
+                "delay": 1036800000,
+                "level": 12,
+                "parentType": "piscine",
+                "campus": "gritlab",
+                "xpIndex": 62.5,
+                "availableLanguages": [
+                    "en"
+                ],
+                "cooldown": 180000,
+                "exerciseType": "required",
+                "difficulty": 1,
+                "rewards": {
+                    "xp": 2150
+                },
+                "rootName": "piscine-js",
+                "subject": "/markdown/root/public/subjects/sortable/README.md",
+                "userLanguage": "en",
+                "validations": [
+                    {
+                        "type": "admin_audit",
+                        "required": 1,
+                        "ratio": 1,
+                        "form": "https://public.01-edu.org/subjects/sortable/audit",
+                        "matchWhere": {
+                            "_or": [
+                                {
+                                    "private": {
+                                        "roles": {
+                                            "slug": {
+                                                "_eq": "campus_admin_gritlab"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": {
+                                        "_eq": 1
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "audit": "https://public.01-edu.org/subjects/sortable/audit",
+                "auditsRatio": 1,
+                "auditsRequired": 1,
+                "displayedName": "sortable",
+                "matchWhere": {
+                    "_or": [
+                        {
+                            "private": {
+                                "roles": {
+                                    "slug": {
+                                        "_eq": "campus_admin_gritlab"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "id": {
+                                "_eq": 1
+                            }
+                        }
+                    ]
+                },
+                "startDay": 13,
+                "week": 2
+            },
+            "key": "sortable",
+            "path": "/gritlab/school-curriculum/piscine-js/sortable",
+            "index": 8
+        },
+        "object": {
+            "id": 100478,
+            "name": "object",
+            "type": "quest",
+            "attrs": {
+                "duration": 2,
+                "scopeExtraDuration": 1,
+                "baseXp": 0,
+                "delay": 1209600000,
+                "level": 13,
+                "parentType": "piscine",
+                "campus": "gritlab",
+                "xpIndex": 63.5,
+                "expectedXp": 23000,
+                "difficulty": 10,
+                "startDay": 15,
+                "week": 3
+            },
+            "children": {
+                "invert": {
+                    "id": 100479,
+                    "name": "invert",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "js",
+                        "expectedFiles": [
+                            "invert.js"
+                        ],
+                        "difficulty": 1,
+                        "baseXp": 2300,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 13,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 63.5,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "exerciseType": "required",
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/invert/README.md",
+                        "testImage": "docker.01-edu.org/test-js",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-js",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "invert",
+                    "path": "/gritlab/school-curriculum/piscine-js/object/invert",
+                    "index": 1
+                },
+                "pick-omit": {
+                    "id": 100480,
+                    "name": "pick-omit",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "js",
+                        "expectedFiles": [
+                            "pick-omit.js"
+                        ],
+                        "difficulty": 1,
+                        "baseXp": 2300,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 13,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 64.5,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "exerciseType": "required",
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/pick-omit/README.md",
+                        "testImage": "docker.01-edu.org/test-js",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-js",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "pick-omit",
+                    "path": "/gritlab/school-curriculum/piscine-js/object/pick-omit",
+                    "index": 2
+                },
+                "fusion": {
+                    "id": 100481,
+                    "name": "fusion",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "js",
+                        "expectedFiles": [
+                            "fusion.js"
+                        ],
+                        "difficulty": 1,
+                        "baseXp": 2300,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 13,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 65.5,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "exerciseType": "required",
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/fusion/README.md",
+                        "testImage": "docker.01-edu.org/test-js",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-js",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "fusion",
+                    "path": "/gritlab/school-curriculum/piscine-js/object/fusion",
+                    "index": 3
+                },
+                "manipulate-values": {
+                    "id": 100482,
+                    "name": "manipulate-values",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "js",
+                        "expectedFiles": [
+                            "manipulate-values.js"
+                        ],
+                        "difficulty": 1,
+                        "baseXp": 2300,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 13,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 66.5,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "exerciseType": "required",
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/manipulate-values/README.md",
+                        "testImage": "docker.01-edu.org/test-js",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-js",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "manipulate-values",
+                    "path": "/gritlab/school-curriculum/piscine-js/object/manipulate-values",
+                    "index": 4
+                },
+                "manipulate-keys": {
+                    "id": 100483,
+                    "name": "manipulate-keys",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "js",
+                        "expectedFiles": [
+                            "manipulate-keys.js"
+                        ],
+                        "difficulty": 1,
+                        "baseXp": 2300,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 13,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 67.5,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "exerciseType": "required",
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/manipulate-keys/README.md",
+                        "testImage": "docker.01-edu.org/test-js",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-js",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "manipulate-keys",
+                    "path": "/gritlab/school-curriculum/piscine-js/object/manipulate-keys",
+                    "index": 5
+                },
+                "manipulate-entries": {
+                    "id": 100484,
+                    "name": "manipulate-entries",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "js",
+                        "expectedFiles": [
+                            "manipulate-entries.js"
+                        ],
+                        "difficulty": 1,
+                        "baseXp": 2300,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 13,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 68.5,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "exerciseType": "required",
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/manipulate-entries/README.md",
+                        "testImage": "docker.01-edu.org/test-js",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-js",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "manipulate-entries",
+                    "path": "/gritlab/school-curriculum/piscine-js/object/manipulate-entries",
+                    "index": 6
+                },
+                "curry-entries": {
+                    "id": 100485,
+                    "name": "curry-entries",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "js",
+                        "expectedFiles": [
+                            "curry-entries.js"
+                        ],
+                        "difficulty": 1,
+                        "baseXp": 2300,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 13,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 69.5,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "exerciseType": "required",
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/curry-entries/README.md",
+                        "testImage": "docker.01-edu.org/test-js",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-js",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "curry-entries",
+                    "path": "/gritlab/school-curriculum/piscine-js/object/curry-entries",
+                    "index": 7
+                },
+                "deep-copy": {
+                    "id": 100486,
+                    "name": "deep-copy",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "js",
+                        "expectedFiles": [
+                            "deep-copy.js"
+                        ],
+                        "difficulty": 1,
+                        "baseXp": 2300,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 13,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 70.5,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "exerciseType": "required",
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/deep-copy/README.md",
+                        "testImage": "docker.01-edu.org/test-js",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-js",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "deep-copy",
+                    "path": "/gritlab/school-curriculum/piscine-js/object/deep-copy",
+                    "index": 8
+                },
+                "replica": {
+                    "id": 100487,
+                    "name": "replica",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "js",
+                        "expectedFiles": [
+                            "replica.js"
+                        ],
+                        "difficulty": 1,
+                        "baseXp": 2300,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 13,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 71.5,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "exerciseType": "required",
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/replica/README.md",
+                        "testImage": "docker.01-edu.org/test-js",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-js",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "replica",
+                    "path": "/gritlab/school-curriculum/piscine-js/object/replica",
+                    "index": 9
+                },
+                "pronoun": {
+                    "id": 100488,
+                    "name": "pronoun",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "js",
+                        "expectedFiles": [
+                            "pronoun.js"
+                        ],
+                        "difficulty": 1,
+                        "baseXp": 2300,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 13,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 72.5,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "exerciseType": "required",
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/pronoun/README.md",
+                        "testImage": "docker.01-edu.org/test-js",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-js",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "pronoun",
+                    "path": "/gritlab/school-curriculum/piscine-js/object/pronoun",
+                    "index": 10
+                },
+                "neuron": {
+                    "id": 100489,
+                    "name": "neuron",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "js",
+                        "expectedFiles": [
+                            "neuron.js"
+                        ],
+                        "difficulty": 1,
+                        "exerciseType": "optional",
+                        "baseXp": 2450,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 14,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 73.5,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/neuron/README.md",
+                        "testImage": "docker.01-edu.org/test-js",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-js",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "neuron",
+                    "path": "/gritlab/school-curriculum/piscine-js/object/neuron",
+                    "index": 11
+                },
+                "flagger": {
+                    "id": 100490,
+                    "name": "flagger",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "js",
+                        "expectedFiles": [
+                            "flagger.js"
+                        ],
+                        "difficulty": 1,
+                        "exerciseType": "optional",
+                        "baseXp": 2450,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 14,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 74.5,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/flagger/README.md",
+                        "testImage": "docker.01-edu.org/test-js",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-js",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "flagger",
+                    "path": "/gritlab/school-curriculum/piscine-js/object/flagger",
+                    "index": 12
+                }
+            },
+            "key": "object",
+            "path": "/gritlab/school-curriculum/piscine-js/object",
+            "index": 9
+        },
+        "async": {
+            "id": 100491,
+            "name": "async",
+            "type": "quest",
+            "attrs": {
+                "duration": 3,
+                "scopeExtraDuration": 1,
+                "baseXp": 0,
+                "delay": 1382400000,
+                "level": 14,
+                "parentType": "piscine",
+                "campus": "gritlab",
+                "xpIndex": 73.5,
+                "expectedXp": 22050,
+                "difficulty": 9,
+                "startDay": 17,
+                "week": 3
+            },
+            "children": {
+                "debounce": {
+                    "id": 100492,
+                    "name": "debounce",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "js",
+                        "expectedFiles": [
+                            "debounce.js"
+                        ],
+                        "difficulty": 1,
+                        "baseXp": 2450,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 14,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 73.5,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "exerciseType": "required",
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/debounce/README.md",
+                        "testImage": "docker.01-edu.org/test-js",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-js",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "debounce",
+                    "path": "/gritlab/school-curriculum/piscine-js/async/debounce",
+                    "index": 1
+                },
+                "throttle": {
+                    "id": 100493,
+                    "name": "throttle",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "js",
+                        "expectedFiles": [
+                            "throttle.js"
+                        ],
+                        "difficulty": 1,
+                        "baseXp": 2450,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 14,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 74.5,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "exerciseType": "required",
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/throttle/README.md",
+                        "testImage": "docker.01-edu.org/test-js",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-js",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "throttle",
+                    "path": "/gritlab/school-curriculum/piscine-js/async/throttle",
+                    "index": 2
+                },
+                "interpolation": {
+                    "id": 100494,
+                    "name": "interpolation",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "js",
+                        "expectedFiles": [
+                            "interpolation.js"
+                        ],
+                        "difficulty": 1,
+                        "baseXp": 2450,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 14,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 75.5,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "exerciseType": "required",
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/interpolation/README.md",
+                        "testImage": "docker.01-edu.org/test-js",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-js",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "interpolation",
+                    "path": "/gritlab/school-curriculum/piscine-js/async/interpolation",
+                    "index": 3
+                },
+                "keep-trying-or-giveup": {
+                    "id": 100495,
+                    "name": "keep-trying-or-giveup",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "js",
+                        "expectedFiles": [
+                            "keep-trying-or-giveup.js"
+                        ],
+                        "difficulty": 1,
+                        "baseXp": 2450,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 14,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 76.5,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "exerciseType": "required",
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/keep-trying-or-giveup/README.md",
+                        "testImage": "docker.01-edu.org/test-js",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-js",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "keep-trying-or-giveup",
+                    "path": "/gritlab/school-curriculum/piscine-js/async/keep-trying-or-giveup",
+                    "index": 4
+                },
+                "get-json": {
+                    "id": 100496,
+                    "name": "get-json",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "js",
+                        "expectedFiles": [
+                            "get-json.js"
+                        ],
+                        "difficulty": 1,
+                        "baseXp": 2450,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 14,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 77.5,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "exerciseType": "required",
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/get-json/README.md",
+                        "testImage": "docker.01-edu.org/test-js",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-js",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "get-json",
+                    "path": "/gritlab/school-curriculum/piscine-js/async/get-json",
+                    "index": 5
+                },
+                "is-winner": {
+                    "id": 100497,
+                    "name": "is-winner",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "js",
+                        "expectedFiles": [
+                            "is-winner.js"
+                        ],
+                        "difficulty": 1,
+                        "baseXp": 2450,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 14,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 78.5,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "exerciseType": "required",
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/is-winner/README.md",
+                        "testImage": "docker.01-edu.org/test-js",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-js",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "is-winner",
+                    "path": "/gritlab/school-curriculum/piscine-js/async/is-winner",
+                    "index": 6
+                },
+                "gougle-search": {
+                    "id": 100498,
+                    "name": "gougle-search",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "js",
+                        "expectedFiles": [
+                            "gougle-search.js"
+                        ],
+                        "difficulty": 1,
+                        "baseXp": 2450,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 14,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 79.5,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "exerciseType": "required",
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/gougle-search/README.md",
+                        "testImage": "docker.01-edu.org/test-js",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-js",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "gougle-search",
+                    "path": "/gritlab/school-curriculum/piscine-js/async/gougle-search",
+                    "index": 7
+                },
+                "all": {
+                    "id": 100499,
+                    "name": "all",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "js",
+                        "expectedFiles": [
+                            "all.js"
+                        ],
+                        "difficulty": 1,
+                        "baseXp": 2450,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 14,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 80.5,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "exerciseType": "required",
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/all/README.md",
+                        "testImage": "docker.01-edu.org/test-js",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-js",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "all",
+                    "path": "/gritlab/school-curriculum/piscine-js/async/all",
+                    "index": 8
+                },
+                "series": {
+                    "id": 100500,
+                    "name": "series",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "js",
+                        "expectedFiles": [
+                            "series.js"
+                        ],
+                        "difficulty": 1,
+                        "baseXp": 2450,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 14,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 81.5,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "exerciseType": "required",
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/series/README.md",
+                        "testImage": "docker.01-edu.org/test-js",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-js",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "series",
+                    "path": "/gritlab/school-curriculum/piscine-js/async/series",
+                    "index": 9
+                },
+                "race": {
+                    "id": 100501,
+                    "name": "race",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "js",
+                        "expectedFiles": [
+                            "race.js"
+                        ],
+                        "difficulty": 1,
+                        "exerciseType": "optional",
+                        "baseXp": 2450,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 14,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 82.5,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/race/README.md",
+                        "testImage": "docker.01-edu.org/test-js",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-js",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "race",
+                    "path": "/gritlab/school-curriculum/piscine-js/async/race",
+                    "index": 10
+                },
+                "async-ex-11": {
+                    "id": 100502,
+                    "name": "async-ex-11",
+                    "type": "exercise",
+                    "attrs": {
+                        "language": "js",
+                        "expectedFiles": [
+                            "async-ex-11.js"
+                        ],
+                        "difficulty": 1,
+                        "exerciseType": "optional",
+                        "baseXp": 2600,
+                        "delay": 0,
+                        "duration": 0,
+                        "level": 15,
+                        "parentType": "quest",
+                        "campus": "gritlab",
+                        "xpIndex": 83.5,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "cooldown": 180000,
+                        "rootName": "piscine-js",
+                        "subject": "/markdown/root/public/subjects/async-ex-11/README.md",
+                        "testImage": "docker.01-edu.org/test-js",
+                        "userLanguage": "en",
+                        "validations": [
+                            {
+                                "type": "tester",
+                                "testImage": "docker.01-edu.org/test-js",
+                                "cooldown": 180000
+                            }
+                        ]
+                    },
+                    "key": "async-ex-11",
+                    "path": "/gritlab/school-curriculum/piscine-js/async/async-ex-11",
+                    "index": 11
+                }
+            },
+            "key": "async",
+            "path": "/gritlab/school-curriculum/piscine-js/async",
+            "index": 10
+        },
+        "clonernews": {
+            "id": 100503,
+            "name": "clonernews",
+            "type": "raid",
+            "attrs": {
+                "groupSize": 3,
+                "eventDuration": 3120,
+                "eventStartDelay": 300,
+                "registrationDuration": 2160,
+                "info": "Group 3",
+                "duration": 2,
+                "startAfter": 27000,
+                "baseXp": 2450,
+                "delay": 1641600000,
+                "level": 14,
+                "parentType": "piscine",
+                "campus": "gritlab",
+                "xpIndex": 82.5,
+                "availableLanguages": [
+                    "en"
+                ],
+                "cooldown": 180000,
+                "exerciseType": "required",
+                "difficulty": 1,
+                "rewards": {
+                    "xp": 2450
+                },
+                "rootName": "piscine-js",
+                "subject": "/markdown/root/public/subjects/clonernews/README.md",
+                "userLanguage": "en",
+                "validations": [
+                    {
+                        "type": "admin_audit",
+                        "required": 1,
+                        "ratio": 1,
+                        "form": "https://public.01-edu.org/subjects/clonernews/audit",
+                        "matchWhere": {
+                            "_or": [
+                                {
+                                    "private": {
+                                        "roles": {
+                                            "slug": {
+                                                "_eq": "campus_admin_gritlab"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": {
+                                        "_eq": 1
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "audit": "https://public.01-edu.org/subjects/clonernews/audit",
+                "auditsRatio": 1,
+                "auditsRequired": 1,
+                "displayedName": "clonernews",
+                "matchWhere": {
+                    "_or": [
+                        {
+                            "private": {
+                                "roles": {
+                                    "slug": {
+                                        "_eq": "campus_admin_gritlab"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "id": {
+                                "_eq": 1
+                            }
+                        }
+                    ]
+                },
+                "startDay": 20,
+                "week": 3
+            },
+            "key": "clonernews",
+            "path": "/gritlab/school-curriculum/piscine-js/clonernews",
+            "index": 11
+        }
+    },
+    "key": "piscine-js",
+    "path": "/gritlab/school-curriculum/piscine-js",
+    "index": 29
+}
