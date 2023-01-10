@@ -4,13 +4,12 @@ function round(int) {
         neg = true;
         int = -int;
     }
-    let intCopy = int;
     let counter = 0;
-    while (!(intCopy < 1 && intCopy > -1)) {
-        intCopy -= 1;
+    while (!(int < 1 && int > -1)) {
+        int -= 1;
         counter++;
     }
-    if (intCopy < 0.5) {
+    if (int < 0.5) {
         if (neg) {
             return -counter;
         } else {

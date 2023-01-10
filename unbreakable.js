@@ -10,14 +10,27 @@ function join(arr, sep) {
 }
 
 function split(str, sep) {
-    var result = [];
-    var start = 0;
-    for (var i = 0; i < str.length; i++) {
-        if (str[i] === sep) {
-            result.push(str.substring(start, i));
-            start = i + 1;
-        }
+    // Split a given string using a multi-character separator
+    // and return an array of the results.
+    if (sep === null) {
+        sep = ",";
     }
-    result.push(str.substring(start));
+    var result = [];
+    if (sep === "") {
+        for (var i = 0; i < str.length; i++) {
+            result.push(str[i]);
+        }
+        return result;
+    }
+    var end = str.indexOf(sep);
+    while (end > -1) {
+        end = str.indexOf(sep);
+        if (end === -1) {
+            break;
+        }
+        result.push(str.slice(0, end));
+        str = str.slice(end + sep.length);
+    }
+    result.push(str);
     return result;
 }

@@ -2,10 +2,6 @@ function multiply(a, b) {
     let res;
     if (a === 0 || b === 0) {
         res = 0;
-    } else if (a === 1) {
-        res = b;
-    } else if (b === 1) {
-        res = a;
     } else {
         if (b < 0) {
             a = -a;
