@@ -1,10 +1,7 @@
 function matchCron(inputCron, date) {
-    let cronParts = inputCron.split(" ");
     let cron = {};
-    cronParts.forEach((part, i) => {
-        if (part === "*") {
-            return;
-        }
+    inputCron.split(" ").forEach((part, i) => {
+        if (part === "*") return;
         switch (i) {
             case 0:
                 cron.minute = part;
