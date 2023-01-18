@@ -10,12 +10,16 @@ function debounce(fn, delay) {
     };
 }
 
-function opDebounce(fn, delay, leading) {
-    let timer = null;
-    let first = true;
+function opDebounce(fn, delay, options) {
+    var timer = null,
+        first = true,
+        leading;
+    if (typeof options === 'object') {
+        leading = !!options.leading;
+    }
     return function () {
-        let context = this;
-        let args = arguments;
+        let context = this,
+            args = arguments;
         if (first && leading) {
             fn.apply(context, args);
             first = false;
