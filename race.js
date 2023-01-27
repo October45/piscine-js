@@ -39,3 +39,5 @@ async function some(promises, count) {
         });
     });
 }
+
+// Damn useless tests that make me commit again...
